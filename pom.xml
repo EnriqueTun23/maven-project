@@ -40,6 +40,12 @@
         </configuration>
       </plugin>
 
+      <!-- Actualiza la versión del plugin maven-war-plugin -->
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.2</version> <!-- Cambia a una versión más reciente -->
+            </plugin>
+
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
